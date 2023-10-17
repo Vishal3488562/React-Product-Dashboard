@@ -1,0 +1,22 @@
+.body-container{
+   display: flex;
+   flex-direction: row;
+   /* flex-wrap: nowrap; */
+   background-color: rgb(225, 222, 222);
+   width: 101.4%;
+   height: 100%;
+}
+
+/* .right-element{
+  position: relative;
+  left: 0.6%;
+} */
+
+/* .right-element{
+   width: 80%;
+   height: auto;
+} */
+/* .left-element{
+  display: flex;
+  flex-direction: column;
+} */

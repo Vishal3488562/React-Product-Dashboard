@@ -1,0 +1,88 @@
+.lower-box{
+  display: flex;
+  flex-direction: column;
+  /* position: relative;
+  left: 40px;
+  top: 300px; */
+  position: relative;
+  top: 2%;
+  /* border: solid 4px gray; */
+  border-radius: 14px;
+  height: 24vh;
+  width: 83.5vw;
+ background-color: rgb(255, 255, 255);
+}
+.heading{
+   display: flex;
+   flex-direction: row;
+   position: relative;
+   left: 20px;
+}
+.search-bar{
+ position: relative;
+ left: 60%;
+}
+.select-box{
+   position: relative;
+   left: 66%;
+   color: rgb(118, 106, 106);
+
+}
+.middle-bar{
+   display: flex;
+   flex-direction: row;
+   position: relative;
+   left: 20px;
+   top: 5px;
+}
+.name-of{
+   font-size: large;
+   font-weight: 700;
+}
+.product-name{
+  color: rgb(142, 140, 140);
+}
+.stock-heading{
+  position: relative;
+  left: 66%;
+}
+.price-heading{
+   position: relative;
+   left: 71%;
+}
+.Total-sales{
+  position: relative;
+  left: 74%;
+}
+.item{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 10px;
+  left: 20px;
+  margin-top: 10px;
+}
+
+.photo{
+  border-radius: 8px;
+  height: 94%;
+  width: 6%;
+}
+.stock-rate{
+    position: relative;
+    left: 42%;
+}
+.price-of{
+    position: relative;
+    left: 45.5%;
+}
+.total-sale{
+    position: relative;
+    left: 50%;
+}
+
+
+/* #bottom-item{
+  position: relative;
+  top: 10px;
+} */

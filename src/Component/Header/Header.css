@@ -1,0 +1,28 @@
+.top{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 20px;
+  top: 10px;
+}
+.search-box{
+  position: relative;
+  left: 850px;
+}
+.header-search{
+  width: 130%;
+  height: 80%;
+  border-radius: 6px;
+}
+.name-of-seller{
+   display: flex;
+   flex-direction: row;
+   font-size: large;
+   font-weight: 500;
+}
+.imageofhii{
+    width: 34px;
+    height: 27px;
+    position: relative;
+    left: 6px;
+}

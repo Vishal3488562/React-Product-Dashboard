@@ -1,0 +1,90 @@
+/* .chart-bar{
+   height: 20vh;
+   width: 70vw;
+} */
+.chart-bar{
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  height: 45vh;
+  /* width: 60vw; */
+  position: relative;
+  top: 1%;
+  /* bottom: -2%; */
+  /* border: solid 2px yellowgreen; */
+  border-radius: 12px;
+}
+.chart-left{
+  /* border: solid 2px khaki; */
+  border-radius: 12px;
+  height: 45vh;
+  width: 68vw;
+  background-color: white;
+}
+.chart-dropdown{
+   border-radius: 8px;
+   background-color: white;
+   position: relative;
+   left: 84%;
+   color: rgb(133, 129, 129);
+}
+.chart-right{
+  /* border: solid 2px rgb(87, 170, 170); */
+  position: relative;
+  left: 1%;
+  border-radius: 12px;
+  background-color: white;
+}
+.chart-head{
+   color: black;
+   font-size: large;
+   font-weight: 800;
+   position: relative;
+   left: 1%;
+}
+.chart-middle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    left: 1%;
+    /* position: relative;
+    top: 4%; */
+} 
+.chart-view{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 1%;
+    top: 1%;
+}
+.bar-chart{
+  height: 38vh;
+  width: 66vw;
+}
+/* .chart-head{
+  position: relative;
+  left: 3%;
+} */
+/* .chart-left{
+  position: relative;
+  left: 8%;
+} */
+.pie-chart{
+   display: flex;
+   flex-direction: column;
+}
+.pie-heading{
+  color: black;
+  font-size: large;
+  font-weight: 800; 
+}
+.pie-desc{
+  color: rgb(140, 160, 177);
+}
+.pie-figure{
+   /* width: 2%; */
+   padding: 7.8vh 0vb;
+   position: relative;
+   top: 3%;
+}
